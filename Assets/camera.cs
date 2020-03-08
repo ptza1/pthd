@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class camera : MonoBehaviour
 {
-    float ySens = 10f, xSens = 10f;
+    public float ySens = 10f, xSens = 10f;
 
     float xRotation = 0f;
 
     public Transform playerHead;
-    
+
     void Start()
     {
         //travando a camera e desligando o cursor da tela
