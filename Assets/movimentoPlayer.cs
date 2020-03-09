@@ -5,6 +5,8 @@ using UnityEngine;
 public class movimentoPlayer : MonoBehaviour
 {
     CharacterController controller;
+    public GameObject lanterna;
+    public bool ligada = true;
 
     public float speed = 12f;
 
@@ -20,5 +22,19 @@ public class movimentoPlayer : MonoBehaviour
         Vector3 move = transform.right * x + transform.forward * z;
 
         controller.Move(move * speed * Time.deltaTime);
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (ligada == true)
+            {
+                lanterna.SetActive(false);
+                ligada = false;
+            }
+            else 
+            {
+                lanterna.SetActive(true);
+                ligada = true;
+            }
+        }
     }
 }
