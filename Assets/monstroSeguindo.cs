@@ -24,7 +24,7 @@ public class monstroSeguindo : MonoBehaviour
 
     void PegarPlayer()
     {
-        imagem1.GetComponent<GameObject>().SetActive(true);
+        imagem1.enabled = true;
         Debug.Log("Peguei");
     }
 

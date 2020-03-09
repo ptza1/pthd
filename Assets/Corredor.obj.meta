@@ -3,7 +3,42 @@ guid: fbcceb0b14fe2a342ab2ad06843c0d83
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teto_do_corredor1_corredorMat
+    second: {fileID: 2100000, guid: 58c513f5ef512294290faa30cc9278f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teto_do_corredor1_porta_imovel1Mat
+    second: {fileID: 2100000, guid: 945e0b6dbb9848b4ab0fa605f8eb23f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teto_do_corredor1_porta_imovelMat
+    second: {fileID: 2100000, guid: 474fce3baea22db4c8c82166763141e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teto_do_corredor1_porta_movelMat
+    second: {fileID: 2100000, guid: ed2e7ff5d42364745b05a06dd908d675, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teto_do_corredor1_quartoMat
+    second: {fileID: 2100000, guid: f03fa02a050384a45920b223c0eef549, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teto_do_corredor1_teto_do_quartoMat
+    second: {fileID: 2100000, guid: 16921209253efc549ba9a6f5a23e501f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teto_do_corredor_teto_do_corredor1Mat
+    second: {fileID: 2100000, guid: 36ee2d809bbbad94d81a8289b01606ed, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

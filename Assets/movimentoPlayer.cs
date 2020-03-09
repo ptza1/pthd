@@ -10,6 +10,8 @@ public class movimentoPlayer : MonoBehaviour
 
     public float speed = 12f;
 
+    public GameObject smoke;
+
     private void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -36,5 +38,10 @@ public class movimentoPlayer : MonoBehaviour
                 ligada = true;
             }
         }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        smoke.SetActive(true);
     }
 }
